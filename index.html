@@ -5,32 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <nav>
-      <div class="nav-logo">
-        <img src="/images/logo.img.png" alt="" />
-        <p class="logo-title">My Learning Journal</p>
-      </div>
+    <div class="body-container">
+      <nav class="navbar">
+        <div class="nav__logo">
+          <img src="/images/logo.img.png" alt="logo image" />
+          <p class="logo__title">My Learning Journal</p>
+        </div>
+        <ul>
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/about_me.html">ABOUT ME</a></li>
+        </ul>
+      </nav>
 
-      <ul>
-        <li><a href="/index.html">HOME</a></li>
-        <li><a href="/about_me.html">ABOUT ME</a></li>
-      </ul>
-    </nav>
+      <section class="hero-section">
+        <p class="article__date__hero date">1ST FEB 2023</p>
+        <h1 class="article__title__hero">
+          <a href="/article_page.html">
+            My coding journey so Far as a front-end career path student.
+          </a>
+        </h1>
+        <p class="article__preview__hero">
+          After starting to learn to code in Jan 22 I decided to take the next
+          step and jump into the Scrimba Front-End Developer career path. This
+          article explains my journey so far.
+        </p>
+      </section>
 
-    <section class="hero-section">
-      <p class="article-date-hero">1ST FEB 2023</p>
-      <h1 class="article-title-hero">
-        <a href="/article_page.html">
-          My coding journey so Far as a front-end career path student.
-        </a>
-      </h1>
-      <p class="article-preview-hero">
-        After starting to learn to code in Jan 22 I decided to take the next
-        step and jump into the Scrimba Front-End Developer career path. This
-        article explains my journey so far.
-      </p>
-    </section>
+      <section class="blog-section">
+        <div class="blog__card">
+          <img
+            class="blog__img"
+            src="/images/blog01_img.jpg"
+            alt="laptop half open"
+          />
+          <p class="blog__date date">30 OCTOBER 22</p>
+          <p class="blog__title">
+            Blog 01 - Starting Scrimba Front-End Career Path
+          </p>
+          <p class="blog__text">
+            I have decided to take my coding learning further by signing up to
+            Scrimba's Fornt-End Career path
+          </p>
+        </div>
 
-    <section class="blog-section"></section>
+        <div class="blog__card">
+          <img
+            class="blog__img"
+            src="/images/blog02_img.jpg"
+            alt="picture of programming code"
+          />
+          <p class="blog__date date">01 NOVEMBER 22</p>
+          <p class="blog__title">Blog 02 - Modules 1, 2 completed</p>
+          <p class="blog__text">
+            So far so good as I completed modules 1 and 2 and was a good test of
+            my knowledge of what i already leart from of free courses about HTML
+            and CSS
+          </p>
+        </div>
+
+        <div class="blog__card">
+          <img
+            class="blog__img"
+            src="/images/blog3_img.jpg"
+            alt="person's hands clutched together with tablet that says focus"
+          />
+          <p class="blog__date date">10 NOVEMBER 22</p>
+          <p class="blog__title">Blog 03 - Javascript Module 3</p>
+          <p class="blog__text">
+            Time to start learning Javascript, i just knew this was going to be
+            challenging and it was for me. So much to learn but know its very
+            essential and is amazing what it can do.
+          </p>
+        </div>
+      </section>
+
+      <p><a href="/blog_page.html">View More</a></p>
+
+      <footer class="footer">
+        <p>My Learning Journal</p>
+        <p>Copyright: &copy; 2022</p>
+      </footer>
+    </div>
   </body>
 </html>
