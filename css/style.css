@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+ 
+  
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: flex;
+}
+
+.logo__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Hero Section */
+
+
+.hero-section {
+    background-image: url("/images/hero_img.jpg");
+    background-size: cover;
+}
+
+
+
+
+
