@@ -58,7 +58,16 @@ li > a {
     text-decoration: none;
 }
 
+a {
+   cursor: pointer; 
+}
 
+a:hover,
+a:focus,
+.view__more__link > a:hover,
+.view__more__link > a:focus {
+    color:blue;
+}
 
 
 /* Hero Section */
@@ -143,7 +152,7 @@ li > a {
 
 .view__more__link > a {
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -169,4 +178,39 @@ li > a {
 
 .footer__copyright {
     color: #D7D7D7;
+}
+
+/******* Media queries ******* */
+
+@media (max-width: 360px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-section {
+        padding-top: 5rem;
+        height: 40rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width: 361px) {
+
+    .blog-section {
+        display: grid;
+        grid-template-columns: minmax(250px, 550px);
+        grid-template-areas:
+        "blog_card";
+        justify-content: center;
+    }
+
 }
