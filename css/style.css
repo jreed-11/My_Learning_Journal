@@ -15,8 +15,7 @@ body {
 }
 
 
-
-/* Navbar */
+/******** Navbar **********/
 
 .navbar {
     align-items: center;
@@ -41,6 +40,7 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     align-self: center;
+   
 }
 
 ul {
@@ -65,12 +65,11 @@ li > a {
 
 
 .hero-section {
+    
     background-image: url("/images/hero.img.jpg");
     background-size: cover;
     padding: 8.5em 2em 2.5em 2em;
-    height: 30rem;
-
-    
+    height: 30rem;    
 }
 
 .article__date__hero {
@@ -83,11 +82,13 @@ li > a {
     font-size: 3.2rem;
     font-weight: bold;
     text-decoration: none;
+    text-align: left;
 }
 
 .article__preview__hero {
     color: #ffffff;
     font-size: 1.6rem;
+    text-align: left;
 
 }
 
