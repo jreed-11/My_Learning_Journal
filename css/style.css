@@ -267,9 +267,10 @@ a:focus,
 
     .blog-section {
         display: grid;
-        grid-template-columns: repeat (3 minmax(200px, 1fr));
+        grid-template-columns: 1fr, 1fr, 1fr;
         grid-template-areas:
         "blog_card blog_card blog_card";
+        justify-content: center;
        
     }
 
