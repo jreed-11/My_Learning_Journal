@@ -142,19 +142,6 @@ a:focus,
     font-size: 1.6rem;
 }
 
-.view__more__link {
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin: 3rem 0 4rem 0;
-
-}
-
-.view__more__link > a {
-    color: #000000;
-    text-decoration: underline;
-}
-
 
 /* ***** Footer ***** */
 
@@ -214,3 +201,28 @@ a:focus,
     }
 
 }
+
+@media (min-width: 600px) {
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        height: 45rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content: flex-end;
+    }
+
+    .article__date__hero {
+        font-size: 1.6rem;
+    }
+    .article__title__hero {
+        font-size: 4rem;
+    }
+
+    .article__title__hero,
+    .article__preview__hero {
+        max-width: 60%;
+    }
+}
+
