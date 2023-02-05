@@ -70,7 +70,7 @@ a:focus,
 }
 
 
-/* Hero Section */
+/* Hero Section & article Page */
 
 
 .hero-section {
@@ -81,10 +81,45 @@ a:focus,
     height: 32rem;    
 }
 
+.article-section {
+    padding: 0 2em 0em 2em;
+    margin-bottom: 5.1rem;
+}
+
+
 .article__date__hero {
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 0.8em;
+}
+
+.article__date {
+    margin: 3.2rem 0 3.2rem 0 ;
+}
+.article__date,
+.article__title {
+    color: #151515;
+}
+
+.article__title {
+    font-size: 3.2rem;
+    width: 80%;
+}
+
+.article__headings,
+.article__text {
+    font-size: 1.6rem;
+    margin: 3.5rem 0 1.5rem 0;
+}
+
+.article__img{
+    max-width: 100%;
+}
+
+.recent__post__heading {
+    margin-top: 5.1rem;
+    text-align: center;
+
 }
 
 .article__title__hero > a {
@@ -116,7 +151,7 @@ a:focus,
     grid-template-columns: 370px;
     grid-template-areas:
     "blog_card";
-    margin: 5rem 0 10rem 0;
+    margin: 0 0 10rem 0;
 }
 
 .blog__card {
