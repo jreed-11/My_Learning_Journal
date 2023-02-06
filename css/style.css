@@ -262,6 +262,12 @@ a:focus,
         justify-content: flex-end;
     }
 
+    .navbar,
+    .article-section {
+        margin: 0 auto;
+        max-width: 850px;
+    }
+
     .article__date__hero {
         font-size: 1.6rem;
     }
@@ -269,14 +275,30 @@ a:focus,
         font-size: 4rem;
     }
 
+    .recent__post__heading,
+    .article__headings {
+        font-size: 2.4rem;
+    }
+
+    .article__text {
+        font-size: 1.9rem;
+    }
+
     .article__title__hero,
     .article__preview__hero {
         max-width: 60%;
     }
 
-      li {
+    .article__img {
+        height: 490px;
+        max-width: 980px;
+    }
+
+    li {
         font-size: 1.6rem;
     }
+
+    
 
 }
 
