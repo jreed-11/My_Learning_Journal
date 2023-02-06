@@ -2,34 +2,39 @@
 *::before,
 *::after {
   box-sizing: border-box;
-    margin: 0;
   padding: 0;
 }
 
 html {
   font-size: 62.5%;
+  
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 
 /******** Navbar **********/
 
 .navbar {
-    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 0 1em;
+    
 }
 
 .nav__logo {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
-    
-    
 }
+
+.nav_img {
+    height: 23px;
+    width: 23px;
+} 
 
 .logo__title,
 li {
@@ -44,6 +49,7 @@ li {
 }
 
 ul {
+    align-items: center;
     display: flex;
     gap: 4rem;
 }
@@ -78,7 +84,8 @@ a:focus,
     background-image: url("/images/hero_img.jpg");
     background-size: cover;
     padding: 8.5em 2em 2.5em 2em;
-    height: 32rem;    
+    height: 32rem;  
+    width: 100vw;  
 }
 
 .article-section {
@@ -116,6 +123,7 @@ a:focus,
 .article__text {
     font-size: 1.6rem;
     margin: 2.5em 0 1.5em 0;
+    padding: 0 1em;
 }
 
 .article__img{
@@ -231,6 +239,7 @@ a:focus,
     .navbar {
         display: flex;
         flex-direction: column;
+        
     }
 
     .hero-section {
@@ -262,7 +271,11 @@ a:focus,
 
 @media (min-width: 600px) {
 
+    .navbar {
+        padding: 1em 1em;
+    }
     .nav_img {
+        height: 35px;
         width: 35px;
     }
 
@@ -334,9 +347,6 @@ a:focus,
 
 @media (min-width: 1300px) {
 
-    .nav_img {
-        width: 35px;
-    }
 
     .logo__title {
         font-size: 2rem;
