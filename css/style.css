@@ -94,7 +94,7 @@ a:focus,
 }
 
 .article__date {
-    margin: 3.2rem 0 3.2rem 0 ;
+    margin: 3.2em 0 1.5em 0 ;
 }
 .article__date,
 .article__title {
@@ -109,7 +109,7 @@ a:focus,
 .article__headings,
 .article__text {
     font-size: 1.6rem;
-    margin: 3.5rem 0 1.5rem 0;
+    margin: 2.5em 0 1.5em 0;
 }
 
 .article__img{
@@ -117,7 +117,7 @@ a:focus,
 }
 
 .recent__post__heading {
-    margin-top: 5.1rem;
+    margin-top: 5.1em;
     text-align: center;
 
 }
@@ -277,6 +277,7 @@ a:focus,
       li {
         font-size: 1.6rem;
     }
+
 }
 
 @media (min-width: 1300px) {
