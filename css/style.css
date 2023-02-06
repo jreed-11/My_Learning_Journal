@@ -86,7 +86,6 @@ a:focus,
     margin-bottom: 5.1rem;
 }
 
-
 .article__date__hero {
     color: #fff;
     font-size: 1.2rem;
@@ -101,12 +100,19 @@ a:focus,
     color: #151515;
 }
 
+.about__me__title {
+    margin-bottom: 0.5em;
+}
+
+.about__me__title,
 .article__title {
     font-size: 3.2rem;
     width: 80%;
 }
 
 .article__headings,
+.about__me__headings,
+.about__me__text
 .article__text {
     font-size: 1.6rem;
     margin: 2.5em 0 1.5em 0;
@@ -273,12 +279,19 @@ a:focus,
         justify-content: flex-end;
     }
 
+    .profile__img__section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3.3em;
+    }
+
     .navbar,
     .profile__img__section,
     .article-section,
     .about-me {
         margin: 0 auto;
-        max-width: 850px;
+        max-width: 1000px;
     }
 
     .article__date__hero,
@@ -333,7 +346,7 @@ a:focus,
 
     .blog-section {
         display: grid;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 350px);
         grid-template-areas:
         "blog_card blog_card blog_card";
        
