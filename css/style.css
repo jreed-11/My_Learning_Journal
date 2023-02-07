@@ -21,7 +21,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 0 1em;
+    margin: 0 2em;
     
 }
 
@@ -81,7 +81,7 @@ a:focus,
 
 .hero-section {
     
-    background-image: url("/images/hero_img.jpg");
+    background-image: url("/images/hero.img.jpg");
     background-size: cover;
     padding: 8.5em 2em 2.5em 2em;
     height: 32rem;  
@@ -214,7 +214,7 @@ a:focus,
 
 .footer {
     background-color: #202020;
-    padding: 4rem 0;
+    padding: 2em 0;
 }
 
 .footer__text,
@@ -286,7 +286,7 @@ a:focus,
     .hero-section {
         display: flex;
         flex-direction: column;
-        height: 45rem;
+        height: 65rem;
         padding-bottom: 0;
         padding-top: 0;
         justify-content: flex-end;
@@ -299,7 +299,16 @@ a:focus,
         gap: 3.3em;
     }
 
-    .navbar,
+    .blog-section {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        grid-template-areas:
+        "blog_card blog_card";
+       
+    }
+
+    
+    
     .profile__img__section,
     .article-section,
     .about-me {
@@ -321,6 +330,10 @@ a:focus,
     .article__headings,
     .about__me__headings {
         font-size: 2.4rem;
+    }
+
+    .article__title__hero {
+        margin: 0;
     }
 
     .article__text {
