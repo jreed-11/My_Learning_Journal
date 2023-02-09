@@ -106,6 +106,10 @@ a:focus,
 .article__title {
     color: #151515;
 }
+.about-me,
+.profile__img__section {
+    padding: 0 2em;
+}
 
 .about__me__title {
     margin-bottom: 0.5em;
@@ -123,7 +127,7 @@ a:focus,
 .article__text {
     font-size: 1.6rem;
     margin: 2.5em 0 1.5em 0;
-    padding: 0 1em;
+    padding: 0;
 }
 
 .article__img{
@@ -138,7 +142,9 @@ a:focus,
 }
 
 .recent__post__heading {
-    margin-top: 5.1em;
+    background-color: #ECECEC;
+    margin: 5.1em 0 0 0;
+    padding-top: 1em;
     text-align: center;
 
 }
@@ -172,11 +178,12 @@ a:focus,
 /* ****** Blog Section ******** */
 
 .blog-section {
+    background-color: #ECECEC;
     display: grid;
     grid-template-columns: 370px;
     grid-template-areas:
     "blog_card";
-    margin: 0 0 10rem 0;
+    padding: 5em 0 10em 0;
 }
 
 .blog__card {
@@ -266,6 +273,7 @@ a:focus,
         "blog_card";
         justify-content: center;
     }
+    
 
 }
 
