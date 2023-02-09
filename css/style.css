@@ -76,11 +76,10 @@ a:focus,
 }
 
 
-/* Hero Section & article Page & About me PAge */
+/* Hero Section & article Page & About me Page */
 
 
 .hero-section {
-    
     background-image: url("/images/hero.img.jpg");
     background-size: cover;
     padding: 8.5em 2em 2.5em 2em;
